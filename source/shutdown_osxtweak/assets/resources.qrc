@@ -1,7 +1,7 @@
 <RCC>
-  <qresource prefix="images">
-    <file>powerbutton.ico</file>
-    <file>powerbutton.png</file>
-    <file>powerbutton.icns</file>
-  </qresource>
+    <qresource prefix="images">
+        <file>powerbutton.ico</file>
+        <file>powerbutton.png</file>
+        <file>powerbutton.icns</file>
+    </qresource>
 </RCC>

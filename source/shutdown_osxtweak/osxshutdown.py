@@ -1,12 +1,13 @@
-from ui.shutdown_dialog import OSXShutdownDialog
-
 import sys
+
 from PyQt5 import QtWidgets
+
+from ui import shutdown_dialog
 
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
-    window = OSXShutdownDialog()
+    window = shutdown_dialog.OSXShutdownDialog()
     window.show()
 
     app.exec_()

@@ -1,7 +1,8 @@
-import ui_shutdownosxtweak
+import os
 
 from PyQt5 import QtWidgets
-import os
+
+import ui_shutdownosxtweak
 
 
 class OSXShutdownDialog(QtWidgets.QMainWindow, ui_shutdownosxtweak.Ui_shutdownosxtweak):
